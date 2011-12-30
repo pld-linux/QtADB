@@ -11,7 +11,9 @@ BuildRequires:	QtCore-devel
 BuildRequires:	QtDeclarative-devel
 BuildRequires:	QtGui-devel
 BuildRequires:	QtNetwork-devel
+BuildRequires:	qt4-build
 BuildRequires:	qt4-qmake
+BuildRequires:	unzip
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
